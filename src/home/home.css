@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.buttoninfo{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.infobutton{
+    background-color: #2ccc38;
+    padding: 10px 8px;
+    border: 2px #2ccc38;
+    color: white;
+    width: 200px;
+}
+
+.infobutton:hover{
+    background-color: black;
+}
+
+.message{
+    padding: 10px;
+}
+
+.findUsButt{
+    cursor: pointer;
+}
+
+.footerContent {
+    display: flex;
+    padding: 0 50px;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.findUsContainer{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.findUsContainer p {
+    text-align: left;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.workHoursContent{
+    width: calc(100%/3);
+}
+
+.callContent {
+    width: calc(100%/3);
+}
